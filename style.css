@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .hcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px;
+  }
+
+  .hcontainer h1 {
+    margin-right: 350px;
+
+  }
+  
+  .logo {
+    width: 130px;
+    height: 125px;
+    margin-right: 20px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin: 0;
+    color: #333;
+  }
+  
+  #theme {
+    cursor: pointer;
+    font-size: 16px;
+    color: #007bff;
+    transition: color 0.3s ease;
+  }
+  
+  #theme:hover {
+    color: #0056b3;
+  }
+  
+  #searchf {
+    display: flex;
+    gap: 15px;
+    margin-bottom:20px;
+  }
+  
+  #input {
+    flex-grow: 1;
+    padding: 12px 15px;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+  }
+  
+  #input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  button {
+    padding: 10px 25px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  button:hover {
+    background-color: #280251;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(84, 226, 7, 0.15);
+  }
+  
+  button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #results {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    min-height: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    .hcontainer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .logo {
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
+  
+    h1 {
+      margin-bottom: 10px;
+      text-align: center;
+    }
+  
+    #searchf {
+      flex-direction: column;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
+  
