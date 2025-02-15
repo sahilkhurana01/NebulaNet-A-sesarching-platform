@@ -87,6 +87,7 @@ h1ofhcon.style.color = "#fff";
         themeToggler.style.background = "#fff";
         themeToggler.style.color = "#333";
     }else{
+        h1ofhcon.style.color = "#000";
         themeToggler.textContent = 'Light';
         themeToggler.style.border = '2px solid #ccc';
         themeToggler.style.color = '#333';
