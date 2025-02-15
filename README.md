@@ -33,8 +33,7 @@ Modify `script.js` to tweak the search functionality.
 
 ## ⬇️ Download  
 🔗 **[Click here to download NebulaNet](https://github.com/sahilkhurana01/NebulaNet/archive/refs/heads/main.zip)**  
-
-(Replace the link if your repo is private or has a different branch name)  
+  
 
 ## 🛠️ How It Works  
 1️⃣ User enters a search term in the input box.  
