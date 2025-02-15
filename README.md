@@ -9,7 +9,7 @@ NebulaNet is a **modern searching platform** 🔍 that fetches and displays data
 ✅ **Fast & Lightweight** – Optimized for quick searches.  
 
 ## 📸 Preview  
-![NebulaNet Screenshot](screenshot.png)  
+![NebulaNet Screenshot](assets/NebulaNet%20sc.png)  
 
 ## 🚀 Getting Started  
 
