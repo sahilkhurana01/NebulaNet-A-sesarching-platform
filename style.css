@@ -28,6 +28,20 @@ body {
     height: 125px;
     margin-right: 20px;
   }
+
+  #theme{
+    border: none;
+    background:transparent;
+    cursor: pointer;
+    background: #e2e2e2;
+    padding: 10px 20px;
+    border-radius: 100px;
+  }
+
+  .dark-theme{
+    background-color: #282c34;
+    color: #000;
+  }
   
   h1 {
     font-size: 28px;
